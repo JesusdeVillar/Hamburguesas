@@ -27,6 +27,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    /*
+    * Metodo que devuelve un pais y una hamburguesa aleatoria
+    */
     @IBAction func damePaisYHamburguesa() {
         pais.text = paises.obtenPais()
         hamburguesa.text = hamburguesas.obtenHamburguesa()
